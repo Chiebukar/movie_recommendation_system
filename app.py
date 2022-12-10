@@ -1,6 +1,6 @@
 import joblib
 import requests
-import streamlit as stgit
+import streamlit as st
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
