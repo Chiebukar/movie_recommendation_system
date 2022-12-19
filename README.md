@@ -13,8 +13,11 @@ The system recommends movies based on its similarity with selected movie.
 Relevant content features such as genre, keywords, cast, crew and storyline are used to identify and recommend similar movies.
 
 ## Workflow
-The text features are extracted from the movies [TMBD 5000 movies data](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) and vectorized into numerical features using CountVectorizer. the features are then used to train a K Nearest Neighbour model which uses Cosine Similarity measure to rank similar movies.
-The trained model is then deployed using streamlit into a web app for [movie](https://chiebuka-movie-recommender.streamlit.app/) recommendation.
+1. The datasets are extracted from [TMBD 5000 movies data](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) and loaded into a pandas dataframe.
+2. The relevant features are selected and extracted to form a movie description.
+3. The extracted text features are then vectorized into numerical features using Countvectorizer.
+4. The vectors are then passed to a K Nearest Neighbour model which uses Cosine Similarity measure to rank the movies based on similarity.
+5. The trained model is then deployed as a [web app] [movie](https://chiebuka-movie-recommender.streamlit.app/) for movie recommendation using Streamlit.
 
 ## How to run the project?
 
