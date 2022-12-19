@@ -1,3 +1,3 @@
 # movie_recommender_system
-Recommend movies based on content-based filtering.
+Content-based filtering for moie recommendation.
 deployed at (https://chiebuka-movie-recommender.streamlit.app/)
