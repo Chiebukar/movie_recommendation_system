@@ -18,7 +18,7 @@ The trained model is then deployed using streamlit into a web app for [movie](ht
 
 ## How to run the project?
 
-1. Clone this repository to your local machine with the command : 'git clone https://github.com/Chiebukar/movie_recommender_system.git'
+1. Clone this repository to your local machine with the command : `git clone https://github.com/Chiebukar/movie_recommender_system.git`
 2. Install the required libraries from the [requirements.txt](https://github.com/Chiebukar/movie_recommender_system/blob/master/requirements.txt) file with the command: `pip install -r requirements.txt`
-3. Open your terminal/command prompt from your project directory and run the streamlit 'app.py.' file by running the command: 'streamlit run app.py'
+3. Open your terminal/command prompt from your project directory and run the streamlit 'app.py.' file by running the command: `streamlit run app.py`
 5. You will be redirected to the app in the localhost of your browser with the address `http://127.0.0.1:5000/`.
